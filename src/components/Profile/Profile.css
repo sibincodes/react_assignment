@@ -1,0 +1,47 @@
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  padding: 15px;
+  width:15%;
+}
+.column2 {
+  float: left;
+  padding: 15px;
+  width:50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.buttonSubmit {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width :190px;
+  margin: 4px 2px;
+  margin-left: 310px;
+  cursor: pointer;
+    background-color: #0285b1;
+
+}
+.buttonEdit {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  width :190px;
+  margin: 10px 5px;
+  cursor: pointer;
+    background-color: #0285b1;
+
+}

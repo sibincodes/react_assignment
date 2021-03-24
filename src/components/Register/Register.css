@@ -1,0 +1,70 @@
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  max-width: 180px;
+  max-height: 130px;
+}
+
+.keywords {
+  border: none;
+  color: white;
+  background-color: #0285b1;
+  margin-right: 10px;
+  height: 30px;
+  width: 130px;
+  margin-top: 10px;
+}
+.label1
+{
+    margin-left: 30px;
+
+}
+.label2
+{
+    margin-left: 14%;
+
+}
+.label3
+{
+    margin-left: 17%;
+
+}
+.label4
+{
+    margin-left: 14%;
+
+}
+.rangeWidth
+{
+  width: 70%;
+}
+.inputWidth{
+  width:88%;
+}
+
+.buttonSubmit {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  margin-left: 310px;
+  cursor: pointer;
+    background-color: #0285b1;
+
+}
+
+
